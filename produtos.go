@@ -9,7 +9,7 @@ type Produto struct {
 	preco float64
 }
 
-func main() {
+func sistemaProdutos() {
 	produto1 := Produto{"Produto 1", 10.0}
 	produto2 := Produto{"Produto 2", 20.0}
 	produto3 := Produto{"Produto 3", 30.0}
@@ -26,4 +26,8 @@ func main() {
 
 		fmt.Printf(" O produto de Maior Preço: %s, %.2f\n", maiorPreco.nome, maiorPreco.preco)
 
+}
+
+func prods() {
+	sistemaProdutos()
 }
